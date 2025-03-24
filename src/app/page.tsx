@@ -22,58 +22,37 @@ const links = [
     {
       icon: <FiBook  className='text-zinc-300' />,
       title: 'Tech Blogs',
-      url: 'https://blogs.abhishekpanthee.com.np/'
+      url: 'https://blogs.janakchhatkuli.com.np/'
     },
   {
     icon: <FaPenNib className='text-zinc-300' />,
     title: 'Poems',
-    url: 'https://abhishekpanthee.com.np/posts'
+    url: 'https://janakchhatkuli.com.np/posts'
   },
   {
     icon: <SiLinkedin className='text-zinc-300' />,
     title: 'Linkedin',
-    url: 'https://www.linkedin.com/in/abhishek-panthee/'
+    url: 'https://www.linkedin.com/in/janak-chhatkuli-b64751288/'
   },
   {
     icon: <SiGithub className='text-zinc-300' />,
     title: 'Github',
-    url: 'https://github.com/abhishekpanthee'
+    url: 'https://github.com/janakchhatkuli'
   },
   {
     icon: <SiFacebook className='text-zinc-300' />,
     title: 'Facebook',
-    url: 'https://www.facebook.com/abhishek.panthee.7/'
+    url: 'https://www.facebook.com/profile.php?id=61561793301272'
   },
-  {
-    icon: <SiInstagram className='text-zinc-300' />,
-    title: 'codecrumbs404',
-    url: 'https://www.instagram.com/codecrumbs404/'
-  },
+  
   {
     icon: <SiInstagram className='text-zinc-300' />,
     title: 'Instagram',
-    url: 'https://www.instagram.com/abhishek.panthee/'
-  },
-  {
-    icon: <SiX className='text-zinc-300' />,
-    title: 'Twitter',
-    url: 'https://x.com/AbhishekPanthee'
-  },
-  {
-    icon: <SiYoutube className='text-zinc-300' />,
-    title: 'YouTube',
-    url: 'https://www.youtube.com/@codecrumbs404'
-  },
-  {
-    icon: <SiReddit className='text-zinc-300' />,
-    title: 'Reddit',
-    url: 'https://www.reddit.com/user/abhishek-panthee/'
-  },
-  {
-    icon: <SiDevdotto className='text-zinc-300' />,
-    title: 'Dev.to',
-    url: 'https://dev.to/abhishekpanthee'
+    url: 'https://www.instagram.com/_ja_na_k_12/'
   }
+  
+  
+
 ]
 
 const HomePage = () => {
@@ -98,7 +77,7 @@ const HomePage = () => {
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'>
         <Spotlight className='-top-4 left-56' />
         <Image
-          src='https://abhishekpanthee.com.np/assets/logo/logo.png'
+          src='https://res.cloudinary.com/dqwfk2ivg/image/upload/v1742809614/zid9mhk2dzkggycxu6t8.jpg'
           width={90}
           height={90}
           alt='Logo'
@@ -107,8 +86,8 @@ const HomePage = () => {
         />
          <p className='text-[#a1a1a1] justify-center'>Available To connect Everywhere</p>
 <GlobeDemo/>
-        <h1 className='text-xl font-semibold'>Abhishek Panthee</h1>
-        <p className='text-[#a1a1a1]'>Cyber-Security Analyst</p>
+        <h1 className='text-xl font-semibold'>Janak Chhatkuli</h1>
+        <p className='text-[#a1a1a1]'>Devops Engineer</p>
       </div>
       <PrimaryLinks />
       <div className='flexflex-col gap-4 py-3'>

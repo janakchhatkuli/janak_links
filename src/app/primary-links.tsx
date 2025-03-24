@@ -5,7 +5,7 @@ const PrimaryLinks = () => {
     <div className='flex items-center justify-center gap-6'>
       <SparkleButton className='mb-6'>
         <a
-          href='https://abhishekpanthee.com.np'
+          href='https://janakchhatkuli.com.np'
           target='_blank'
           className={SparkleButton.ClassName}
           rel='noopener, noreferrer'
@@ -17,10 +17,10 @@ const PrimaryLinks = () => {
       </SparkleButton>
 
       <SparkleButton className='mb-6'>
-        <a href='mailto:info@abhishekpanthee.com.np' className={SparkleButton.ClassName}>
+        <a href='mailto:info@janakchhatkuli.com.np' className={SparkleButton.ClassName}>
           <SparkleButton.Spark />
           <SparkleButton.Backdrop />
-          <SparkleButton.Text>info@abhishekpanthee.com.np</SparkleButton.Text>
+          <SparkleButton.Text>info@janakchhatkuli.com.np</SparkleButton.Text>
         </a>
       </SparkleButton>
     </div>
